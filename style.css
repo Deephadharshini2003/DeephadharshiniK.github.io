@@ -1,0 +1,127 @@
+root{
+    --white:whitesmoke;
+    --green:#53BF9D;
+
+}
+body{
+
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.landing
+{
+    background-image:url('../media/pexels100.jpg');
+    background-size: cover;
+    background-position:center;
+    height:100vh;
+
+}
+header a{
+    text-decoration:none;
+    color:whitesmoke;
+}
+header
+{
+display:flex;
+padding:1em;
+}
+#logo
+{
+    flex:3;
+    font-size:1.25em;
+}
+nav{
+    flex:2;
+    display:flex;
+}
+nav a{
+    flex:1;
+}
+nav a:hover{
+    color:green;
+}
+.maintext
+{
+    display:flex;
+    flex-direction:column;
+    height:50vh;
+    justify-content:center;
+    padding:2em;
+}
+.tagline1{
+    color:whitesmoke;
+    font-size:2.5em;
+    font-weight:bolder;
+}
+.tagline2{
+    color:whitesmoke;
+   
+}
+.callus{
+    color:whitesmoke;
+}
+.maintext div{
+    margin-top:.75em;
+}
+.maintext button{
+    width:20vw;
+    margin-top:2em;
+    border: radius 10px;
+    padding:.7em;
+
+}
+.image
+{
+    display:flex;
+    flex-direction:column;
+    height:50vh;
+    justify-content:center;
+    padding:2em;
+}
+.tagline3{
+    color:var(--white);
+    font-size:2.5em;
+    font-weight:bolder;
+}
+.tagline4{
+    font-size:1.5em;
+}
+.tagline5{
+    font-size:1.5em;
+}
+.tagline6{
+    font-size:1.5em;
+}
+.container
+{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.para{
+    padding:1rem;
+    background-color:midnightblue;
+    color:whitesmoke;
+    font-size: larger;
+    font-style: oblique;
+}
+.container1
+{
+    display:grid;
+    grid-template-columns:1fr 1fr 0fr;
+}
+.pa{
+    padding:1rem;
+    background-color:midnightblue;
+    color:whitesmoke;
+    font-size:larger;
+}
+.container2{
+    display:grid;
+    grid-template-columns:1fr 1fr 0fr;
+}
+.pa2{
+    padding:irem;
+    background-color:midnightblue;
+    color:whitesmoke;
+    font-size:larger;
+}
